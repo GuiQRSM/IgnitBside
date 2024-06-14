@@ -1,9 +1,9 @@
-import { Container, Title } from "./styles";
+import * as SC from "./styles";
 
 export function Groups() {
     return (
-        <Container>
-            <Title>Groups</Title>
-        </Container>
+        <SC.Container>
+            <SC.Title>Groups</SC.Title>
+        </SC.Container>
     );
 }
