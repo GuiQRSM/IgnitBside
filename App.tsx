@@ -6,12 +6,11 @@ import { ActivityIndicator } from 'react-native';
 
 
 export default function App() {
-
     const [fontsLoader] = useFonts({Roboto_400Regular, Roboto_700Bold});
 
     return (
         <ThemeProvider theme={theme}>
             {fontsLoader ? <Groups/> : <ActivityIndicator/>};
         </ThemeProvider>
-    );
+   );
 }
