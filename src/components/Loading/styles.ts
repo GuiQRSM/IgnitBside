@@ -6,3 +6,6 @@ justify-content: center;
 align-items: center;
 background-color: ${({theme}) => theme.COLORS.GRAY_600};
 `;
+
+export const LoadingIndicator = styled.ActivityIndicator`
+`;
