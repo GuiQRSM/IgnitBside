@@ -10,6 +10,6 @@ export default function App() {
     const [fontsLoader] = useFonts({Roboto_400Regular, Roboto_700Bold});
 
     return (
-        <ThemeProvider theme={theme}>{!fontsLoader ? <Groups/> : <Loading/>}</ThemeProvider>
+        <ThemeProvider theme={theme}>{fontsLoader ? <Groups/> : <Loading/>}</ThemeProvider>
    );
 }
