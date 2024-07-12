@@ -3,8 +3,6 @@ import { Header } from "@components/Header";
 
 export function Groups() {
     return (
-        <Container>
-            <Header/>
-        </Container>
+        <Container><Header/></Container>
     );
 }
