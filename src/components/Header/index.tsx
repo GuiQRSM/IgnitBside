@@ -1,1 +1,1 @@
-import { Container } from "./styles";
+import { Container, Logo } from "./styles";
