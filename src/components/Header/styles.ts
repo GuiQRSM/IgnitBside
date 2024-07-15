@@ -16,4 +16,6 @@ height: 55px;
 export const BackIcon = styled(CaretLeft).attrs(({theme}) => ({
     color: theme.COLORS.GRAY_200,
     size: 36
-}))``;
+}))`
+flex: 1;
+`;

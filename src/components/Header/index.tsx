@@ -1,4 +1,4 @@
-import { Container, Logo, BackIcon } from "./styles";
+import { Container, Logo, BackIcon} from "./styles";
 import logoimg from '@assets/logo.png';
 
 export function Header() {
